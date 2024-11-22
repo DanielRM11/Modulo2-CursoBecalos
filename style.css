@@ -1,0 +1,50 @@
+
+
+/*Etiqueta*/
+body{
+    background-color: rgb(65, 63, 212);
+}
+
+main{
+    /*Ajustar las tarjetas a varias lineas*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+/*Clase*/
+.card {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px; 
+}
+
+.card:hover{
+    background-color: rgb(108, 108, 226);
+    transform: scale(1.1);
+    transform: rotate(5deg);
+}
+.card .caja-contenedora{
+    width: 200px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.card p{
+    font-size: 18px;
+}
+
